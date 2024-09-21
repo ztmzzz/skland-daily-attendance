@@ -1,7 +1,7 @@
 import { SklandBoard } from './types'
 
 export const SKLAND_AUTH_URL = 'https://as.hypergryph.com/user/oauth2/v2/grant'
-export const CRED_CODE_URL = 'https://zonai.skland.com/api/v1/user/auth/generate_cred_by_code'
+export const CRED_CODE_URL = 'https://zonai.skland.com/web/v1/user/auth/generate_cred_by_code'
 /** 查询绑定角色 url */
 export const BINDING_URL = 'https://zonai.skland.com/api/v1/game/player/binding'
 /** 明日方舟每日签到 url */
