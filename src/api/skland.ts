@@ -19,7 +19,7 @@ const fetch = createFetch({
  */
 export async function signIn(grant_code: string) {
   const data = await fetch<CredResponse>(
-    '/api/v1/user/auth/generate_cred_by_code',
+    '/web/v1/user/auth/generate_cred_by_code',
     {
       method: 'POST',
       headers: command_header,
